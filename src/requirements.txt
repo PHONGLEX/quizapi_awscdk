@@ -1,0 +1,12 @@
+django
+djangorestframework
+djangorestframework_simplejwt
+python-dotenv
+gunicorn
+drf-yasg
+jsonpickle
+redis
+celery
+psycopg2_binary
+boto3
+django-storages
