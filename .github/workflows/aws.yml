@@ -54,7 +54,7 @@ jobs:
       
     - name: Add environment variables to .env
       run: |
-        echo DEBUG=0 >> ./backend/.env
+        echo DEBUG=0 >> ./src/.env
         echo SECRET_KEY=${{ secrets.SECRET_KEY }} >> ./src/.env
         echo EMAIL_HOST_USER=${{secrets.EMAIL_HOST_USER}} >> ./src/.env
         echo EMAIL_HOST_PASSWORD=${{secrets.EMAIL_HOST_PASSWORD}} >> ./src/.env
