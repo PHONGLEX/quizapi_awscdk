@@ -25,9 +25,9 @@ config = dotenv_values(os.path.join(BASE_DIR, '.env'))
 SECRET_KEY = config['SECRET_KEY']
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['infra-ecsde-14oivjwli6jz3-321832640.us-east-2.elb.amazonaws.com']
 
 
 # Application definition
