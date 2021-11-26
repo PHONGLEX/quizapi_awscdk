@@ -31,6 +31,10 @@ on:
     branches:
       - master
 
+env:
+  AWS_REGION: us-east-2
+  ECR_REPOSITORY: ecs-devops-sandbox-repository
+  
 jobs:
   deploy:
     name: Deploy
